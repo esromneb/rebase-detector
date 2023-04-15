@@ -1,0 +1,40 @@
+{
+ "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": [
+      "es2020"
+    ],
+
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "composite": true,
+    "strict": false,
+    "moduleResolution": "node",
+    "rootDirs": [
+      "."
+    ],
+
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny":false,
+
+
+    "esModuleInterop": true,
+   
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "references": [],
+  "watchOptions": {
+    "fallbackPolling": "dynamicPriority"
+    
+  },
+  "include": [
+    "src"
+  ]
+}
