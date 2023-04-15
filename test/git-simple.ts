@@ -15,8 +15,12 @@ const ECS = {
   Component,
 };
 
+// import {iterateBranches} from '../src/server/lib'
+
 
 test('basic', () => {
+
+  // iterateBranches('/home/x/work/DoubleRay');
 
   let sum = 1+2;
   expect(sum).toBe(3);

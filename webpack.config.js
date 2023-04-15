@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/main.ts',
+  entry: './src/web/main.ts',
   devtool: 'inline-source-map',
   mode: 'development',
   output: {
@@ -11,6 +11,16 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".json"],
+    fallback: {
+      // "assert": require.resolve("assert/"),
+      // "util": require.resolve("util/"),
+      // "path": require.resolve("path-browserify"),
+      // "assert": require.resolve("assert/"),
+      // "os": require.resolve("os-browserify/browser"),
+      // "stream": require.resolve("stream-browserify"),
+      // "constants": require.resolve("constants-browserify"),
+      // "buffer": require.resolve("buffer")
+    }
   },
   module: {
     rules: [
